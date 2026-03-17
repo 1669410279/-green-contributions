@@ -16,7 +16,7 @@ on:
       daily_commits:
         description: '每天提交次数 (用于历史填充)'
         required: true
-        default: '12'
+        default: '50'
 
 jobs:
   fill:
